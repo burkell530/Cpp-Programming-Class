@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1386803941 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\shippingroutes\main.cpp
+	<iostream>
+	<vector>
+	"stree.h"
+
+1386803804 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\shippingroutes\stree.h
+	<vector>
+	<string>
+
+1386803886 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\shippingroutes\stree.cpp
+	"stree.h"
+	<vector>
+	<iostream>
+

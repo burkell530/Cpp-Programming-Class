@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1384328746 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\circle.cpp
+	"circle.h"
+	"grid.h"
+
+1384328746 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\circle.h
+	"shape.h"
+	"grid.h"
+
+1384365915 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\grid.cpp
+	"grid.h"
+	<iostream>
+
+1384365881 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\grid.h
+
+1384365930 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\main.cpp
+	<iostream>
+	<vector>
+	"shape.h"
+	"triangle.h"
+	"circle.h"
+	"square.h"
+	"point.h"
+	"grid.h"
+
+1384327981 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\shape.h
+	"grid.h"
+
+1384328480 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\triangle.h
+	"shape.h"
+	"grid.h"
+
+1384327737 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\square.h
+	"shape.h"
+	"grid.h"
+
+1384329177 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\point.h
+	"shape.h"
+	"grid.h"
+
+1384329137 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\point.cpp
+	"point.h"
+	"grid.h"
+
+1384327917 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\shape.cpp
+	"shape.h"
+
+1384328123 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\square.cpp
+	"square.h"
+
+1384328480 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\ashapes\triangle.cpp
+	"triangle.h"
+	"grid.h"
+

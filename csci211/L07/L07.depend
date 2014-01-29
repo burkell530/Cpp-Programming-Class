@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1381334319 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a04\dstack.cpp
+	"dstack.h"
+	<iostream>
+
+1381289113 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a04\dstack.h
+	<string>
+

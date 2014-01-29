@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1386615086 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\kalsort\kallist.cpp
+	"kalList.h"
+
+1386615028 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\kalsort\kallist.h
+	<iostream>
+
+1386615061 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\kalsort\main.cpp
+	"kalList.h"
+	<iostream>
+

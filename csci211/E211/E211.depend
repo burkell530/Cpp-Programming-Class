@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1378924389 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\e211\course.cpp
+	"course.h"
+	<iostream>
+	<string>
+
+1378924320 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\e211\course.h
+	<string>
+

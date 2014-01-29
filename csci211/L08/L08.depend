@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1381948458 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\l08\main.cpp
+	<sstream>
+	<iostream>
+	<fstream>
+	<string>
+	<assert.h>
+	<cstdlib>
+

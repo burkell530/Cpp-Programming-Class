@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1379347770 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\video p2\main.cpp
+	<iostream>
+	<string>
+	"video.h"
+
+1379099229 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\video p2\video.h
+	<string>
+
+1379099348 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\video p2\video.cpp
+	"video.h"
+	<iostream>
+

@@ -1,0 +1,3 @@
+2: Lisahas entered the store
+3: Homerhas entered the store
+5: Barthas entered the store

@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1382547296 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a06\cust.cpp
+	"cust.h"
+	<fstream>
+	<iostream>
+
+1382545520 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a06\cust.h
+	<iostream>
+	<fstream>
+
+1382375297 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a06\pqeueu.cpp
+	"pqeueu.h"
+
+1382375297 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a06\pqeueu.h
+
+1382505834 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a06\main.cpp
+	<iostream>
+	<sstream>
+	<cstdlib>
+	"pqueue.h"
+	<fstream>
+	"sim.h"
+
+1382545520 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a06\pqueue.h
+	"cust.h"
+
+1382545520 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a06\pqueue.cpp
+	"pqueue.h"
+	<iostream>
+
+1382408193 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a06\main.cpp
+	<iostream>
+	<sstream>
+	<cstdlib>
+	"pqueue.h"
+	"cust.h"
+	<fstream>
+
+1382489616 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a06\sim.h
+	<fstream>
+	<iostream>
+
+1382547780 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a06\sim.cpp
+	<iostream>
+	<sstream>
+	<cstdlib>
+	"pqueue.h"
+	<fstream>
+

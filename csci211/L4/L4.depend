@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1380131464 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\l4\list.cpp
+	"List.h"
+	<iostream>
+
+1380131820 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\l4\list.h
+
+1380131741 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\l4\main.cpp
+	<iostream>
+	"List.h"
+

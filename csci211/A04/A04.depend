@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1381340891 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a04\dstack.cpp
+	"dstack.h"
+	<iostream>
+
+1381340764 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a04\dstack.h
+	<string>
+
+1382144039 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a04\calc.cpp
+	<iostream>
+	"dstack.h"
+	<stdio.h>
+	<ctype.h>
+	<cmath>
+	<cstdlib>
+
