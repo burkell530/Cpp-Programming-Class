@@ -53,7 +53,7 @@ bool DoublyLinkedList::empty()
  *
  */
 
-void DoublyLinkedList::append(std::string name)
+void DoublyLinkedList::append(std::string& name)
 {
 
     //if playlist is empty
@@ -81,7 +81,7 @@ void DoublyLinkedList::append(std::string name)
  *
  */
 
-void DoublyLinkedList::insertBefore(std::string name)
+void DoublyLinkedList::insertBefore(std::string& name)
 {
     //if playlist is empty
     if(empty()) current = tail = head = new Node(name,NULL, NULL);
@@ -107,7 +107,7 @@ void DoublyLinkedList::insertBefore(std::string name)
  *
  */
 
-void DoublyLinkedList::insertAfter(std::string name)
+void DoublyLinkedList::insertAfter(std::string& name)
 {
     //if playlist is empty
     if(empty()) current = tail = head = new Node(name,NULL, NULL);
@@ -130,7 +130,7 @@ void DoublyLinkedList::insertAfter(std::string name)
  *
  */
 
-void DoublyLinkedList::remove(std::string name)
+void DoublyLinkedList::remove(std::string& name)
 {
     // No song return;
     if(!find(name)) return;
@@ -146,7 +146,7 @@ void DoublyLinkedList::remove(std::string name)
         current = NULL;
     }
     //if song at front of list >1
-    else if(head -> songName == name)
+    else if(*(head -> songName) == name)
     {
         Node* temp = head;
         current = head = temp->ptrNext;
@@ -160,7 +160,7 @@ void DoublyLinkedList::remove(std::string name)
     {
         //finds the first instance of the song in playlist, sets to PTR
         Node* ptr = head;
-        while(ptr -> songName != name)
+        while(*(ptr -> songName) != name)
         {
             ptr = ptr->ptrNext;
         }
@@ -193,10 +193,10 @@ void DoublyLinkedList::remove(std::string name)
  *
  */
 
-std::string DoublyLinkedList::getData()
+std::string& DoublyLinkedList::getData()
 {
 
-    return current -> songName;
+    return *(current -> songName);
 }
 
 
@@ -208,14 +208,14 @@ std::string DoublyLinkedList::getData()
  *
  */
 
-bool DoublyLinkedList::find(std::string name)
+bool DoublyLinkedList::find(std::string& name)
 {
     //cout << "Looking for Song: " << name << endl;
     bool b = false;
     Node* ptr = head;
     while(ptr && !b)
     {
-        if(ptr->songName == name)
+        if(*(ptr->songName) == name)
         {
             current = ptr;
             b=true;

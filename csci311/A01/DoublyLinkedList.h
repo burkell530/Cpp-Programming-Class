@@ -25,16 +25,16 @@ class DoublyLinkedList
         ~DoublyLinkedList();
 
           bool empty();
-          void append(std::string);
-          void insertBefore(std::string);
-          void insertAfter(std::string);
-          void remove(std::string);
+          void append(std::string &);
+          void insertBefore(std::string &);
+          void insertAfter(std::string &);
+          void remove(std::string &);
           void begin();
           void end();
           bool next();
           bool prev();
-          bool find(std::string);
-          std::string getData();
+          bool find(std::string &);
+          std::string& getData();
     protected:
     private:
 
@@ -42,22 +42,26 @@ class DoublyLinkedList
         class Node
         {
             public:
-                Node(std::string name)
+                Node(std::string& name)
                 {
                 Node(name, NULL, NULL);
                 }
 
                 /**< Constructor of input type String, Node*, Node* */
-                Node(std::string name, Node* next, Node* prev)
+                Node(std::string& name, Node* next, Node* prev)
                 {
-                songName = name;
+
+
+                songName = new std::string();
+                *songName = name;
                 ptrNext = next;
                 ptrPrev = prev;
                 }
 
                 /**< Destructor */
                 ~Node(){
-                    delete &songName;
+                    delete songName;
+                    songName = NULL;
                     ptrNext = NULL;
                     ptrPrev = NULL;
                 }
@@ -65,7 +69,7 @@ class DoublyLinkedList
                 /**< Variables for Class Node */
                 Node* ptrNext;
                 Node* ptrPrev;
-                std::string songName;
+                std::string* songName;
         };
 
         /**< Variables for class DLL */

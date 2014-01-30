@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1390616574 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a01\playlist.cpp
+	<iostream>
+	<string>
+	"Playlist.h"
+	"DoublyLinkedList.h"
+
+1390616555 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a01\playlist.h
+	"DoublyLinkedList.h"
+
+1390784777 c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a01\doublylinkedlist.h
+	<string>
+
+1390703113 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\a08\a01\doublylinkedlist.cpp
+	"DoublyLinkedList.h"
+	<string>
+	<iostream>
+
+1390616574 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\codeblocks\csci311\a01\playlist.cpp
+	<iostream>
+	<string>
+	"Playlist.h"
+	"DoublyLinkedList.h"
+
+1390616555 c:\users\sethvan grinsven\desktop\codeblocksworkspace\codeblocks\csci311\a01\playlist.h
+	"DoublyLinkedList.h"
+
+1391040176 c:\users\sethvan grinsven\desktop\codeblocksworkspace\codeblocks\csci311\a01\doublylinkedlist.h
+	<string>
+
+1391039788 source:c:\users\sethvan grinsven\desktop\codeblocksworkspace\codeblocks\csci311\a01\doublylinkedlist.cpp
+	"DoublyLinkedList.h"
+	<string>
+	<iostream>
+
